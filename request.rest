@@ -1,0 +1,15 @@
+###
+GET http://localhost:8000/stoks
+
+###
+GET http://localhost:8000/stoks/6312cf1914d2b7d1ae6fc858
+
+###
+POST http://localhost:8000/stoks
+Content-Type: application/json
+
+{
+    "product_id": 1,
+    "category_id": 1,
+    "price": 1
+}
